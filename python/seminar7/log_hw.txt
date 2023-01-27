@@ -1,0 +1,18 @@
+Get data from User: Smirnov, Vova, 741 - homeWrite data into the table: Smirnov, Vova, 741 - homePrint data on the display: Kash, Leis, 412 - mine
+Get data from DataBase: ('Kash', 'Leis', '412', 'mine')
+Print data on the display: Ivanov, Ivan, 123 - home
+Get data from DataBase: ('Ivanov', 'Ivan', '123', 'home')
+Write data into the text file: Kash, Leis, 412 - mine
+Write data into the text file: Ivanov, Ivan, 123 - home
+Print data on the display: Kash, Leis, 412 - mine
+Get data from DataBase: ('Kash', 'Leis', '412', 'mine')
+Print data on the display: Ivanov, Ivan, 123 - home
+Get data from DataBase: ('Ivanov', 'Ivan', '123', 'home')
+Print data on the display: Kash, Leis, 412 - mine
+Get data from DataBase: ('Kash', 'Leis', '412', 'mine')
+Print data on the display: Ivanov, Ivan, 123 - home
+Get data from DataBase: ('Ivanov', 'Ivan', '123', 'home')
+Write data into the table: Kash, Leis, 412 - mine
+Write data into the table: Ivanov, Ivan, 123 - home
+Write data into the table: Kash, Leis, 412 - mine
+Write data into the table: Ivanov, Ivan, 123 - home
