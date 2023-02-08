@@ -1,0 +1,196 @@
+2023-02-07 19:39:52.957302: ������ �� �������� ����.2023-02-07 19:39:55.861161: Пользователь выбрал 12 пункт.
+2023-02-07 19:39:55.872616: Экспорт в файл: workers.csv.
+2023-02-07 19:39:55.874619: 1;Romanov;Roman;Romanovich;18.07.2001;874;Moscow;Count
+3;Smirnova;Elena;Petrovna;08.04.2000;874;Ufa;IT
+4;Ivanov;Ivan;Ivanovich;04.02.2001;214;Moscow;IT
+6;Ibasheva;Zina;Alekseevna;07.07.2007;741;Gus;Cleaning
+7;Egorov;Egor;Egorovich;09.06.2003;852;Milovka;Home
+.
+2023-02-07 19:39:55.875616: Экспорт в файл: departments.csv.
+2023-02-07 19:39:55.879622: IT;4;3
+Count;1
+Cleaning;6
+Home;7
+.
+2023-02-07 19:39:55.880617: Экспорт в файл: deleted_workers.csv.
+2023-02-07 19:39:55.881618: Ivanov;Ivan;Ivanovich;05.04.2000;937;Perm;Count
+Vaskina;Nina;Egorovna;07.07.2000;541;Birsk;Cleaning
+Pavlov;Igor;Ivanovich;21.05.2001;853;Pyshma;Sale
+Orlova;Olga;Faimovna;07.12.2005;831;Perm;Home
+.
+2023-02-07 19:41:14.828869: Выгрузка из файла отделов: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Home': ['7']}
+2023-02-07 19:41:14.833338: Выгрузка из файла сотрудников: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Home']}
+2023-02-07 20:13:19.783469: Выгрузка из файла отделов: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Home': ['7']}
+2023-02-07 20:13:19.796448: Выгрузка из файла сотрудников: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Home']}
+2023-02-07 20:14:03.187040: Выгрузка из файла отделов: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Home': ['7']}
+2023-02-07 20:14:03.200223: Выгрузка из файла сотрудников: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Home']}
+2023-02-07 20:14:03.213220: Выгрузка из файла удаленных сотрудников: {'2': ['Ivanov', 'Ivan', 'Ivanovich', '05.04.2000', '937', 'Perm', 'Count'], '5': ['Vaskina', 'Nina', 'Egorovna', '07.07.2000', '541', 'Birsk', 'Cleaning'], '8': ['Pavlov', 'Igor', 'Ivanovich', '21.05.2001', '853', 'Pyshma', 'Sale'], '9': ['Orlova', 'Olga', 'Faimovna', '07.12.2005', '831', 'Perm', 'Home']}
+2023-02-07 20:14:03.216223: Запуск программы
+2023-02-07 20:15:17.729069: Пользователь выбрал 2 пункт.
+2023-02-07 20:17:07.464830: Создали новый отдел: Sale
+2023-02-07 20:17:07.465831: Создали нового сотрудника: 10, ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale']
+2023-02-07 20:17:11.787289: Пользователь выбрал 6 пункт.
+2023-02-07 20:17:11.797685: Вывод на экран: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Home'], '10': ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale']}
+2023-02-07 20:17:20.829349: Пользователь выбрал 7 пункт.
+2023-02-07 20:17:20.857079: Вывод на экран: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Home': ['7'], 'Sale': ['10']}
+2023-02-07 20:18:19.510665: Пользователь выбрал 8 пункт.
+2023-02-07 20:18:28.856390: Поиск сотрудника: Zina
+2023-02-07 20:18:28.859391: Найдена информация: ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning']
+2023-02-07 20:18:44.290827: Пользователь выбрал 4 пункт.
+2023-02-07 20:19:03.580035: Для сотрудника 7 заменили отдел с Home на Sale
+2023-02-07 20:19:07.658365: Пользователь выбрал 7 пункт.
+2023-02-07 20:19:07.670366: Вывод на экран: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Home': [], 'Sale': ['10', '7']}
+2023-02-07 20:19:17.345849: Пользователь выбрал 6 пункт.
+2023-02-07 20:19:17.355543: Вывод на экран: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '10': ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale']}
+2023-02-07 20:19:36.256606: Пользователь выбрал 5 пункт.
+2023-02-07 20:19:36.302212: Вывод на экран: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '10': ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale']}
+2023-02-07 20:19:39.348564: Удалили сотрудника: 10, ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale']
+2023-02-07 20:20:02.536129: Пользователь выбрал 12 пункт.
+2023-02-07 20:20:02.548252: Экспорт в файл: workers.csv.
+2023-02-07 20:20:02.567251: 1;Romanov;Roman;Romanovich;18.07.2001;874;Moscow;Count
+3;Smirnova;Elena;Petrovna;08.04.2000;874;Ufa;IT
+4;Ivanov;Ivan;Ivanovich;04.02.2001;214;Moscow;IT
+6;Ibasheva;Zina;Alekseevna;07.07.2007;741;Gus;Cleaning
+7;Egorov;Egor;Egorovich;09.06.2003;852;Milovka;Sale
+.
+2023-02-07 20:20:02.571253: Экспорт в файл: departments.csv.
+2023-02-07 20:20:02.572256: IT;4;3
+Count;1
+Cleaning;6
+Home
+Sale;7
+.
+2023-02-07 20:20:02.573249: Экспорт в файл: deleted_workers.csv.
+2023-02-07 20:20:02.575249: Ivanov;Ivan;Ivanovich;05.04.2000;937;Perm;Count
+Vaskina;Nina;Egorovna;07.07.2000;541;Birsk;Cleaning
+Pavlov;Igor;Ivanovich;21.05.2001;853;Pyshma;Sale
+Orlova;Olga;Faimovna;07.12.2005;831;Perm;Home
+Sorokina;Tanya;Vasilevna;19.06.2002;963;Moscow;Sale
+.
+2023-02-07 20:32:37.700288: Выгрузка из файла отделов: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Sale': ['7']}
+2023-02-07 20:32:37.704272: Выгрузка из файла сотрудников: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale']}
+2023-02-07 20:32:37.723756: Выгрузка из файла удаленных сотрудников: {'2': ['Ivanov', 'Ivan', 'Ivanovich', '05.04.2000', '937', 'Perm', 'Count'], '5': ['Vaskina', 'Nina', 'Egorovna', '07.07.2000', '541', 'Birsk', 'Cleaning'], '8': ['Pavlov', 'Igor', 'Ivanovich', '21.05.2001', '853', 'Pyshma', 'Sale'], '9': ['Orlova', 'Olga', 'Faimovna', '07.12.2005', '831', 'Perm', 'Home'], '10': ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale']}
+2023-02-07 20:32:37.733755: Запуск программы
+2023-02-07 20:33:10.218137: Пользователь выбрал 2 пункт.
+2023-02-07 20:34:49.961349: Создали новый отдел: Home
+2023-02-07 20:34:49.962350: Создали нового сотрудника: 12, ['Yurev', 'Timur', 'Yurevich', '07.05.2001', '654', 'Ufa', 'Home']
+2023-02-07 20:34:57.581483: Пользователь выбрал 6 пункт.
+2023-02-07 20:34:57.624091: Вывод на экран: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '12': ['Yurev', 'Timur', 'Yurevich', '07.05.2001', '654', 'Ufa', 'Home']}
+2023-02-07 20:38:29.662155: Пользователь выбрал 12 пункт.
+2023-02-07 20:38:29.672867: Экспорт в файл: workers.csv.
+2023-02-07 20:38:29.691897: 1;Romanov;Roman;Romanovich;18.07.2001;874;Moscow;Count
+3;Smirnova;Elena;Petrovna;08.04.2000;874;Ufa;IT
+4;Ivanov;Ivan;Ivanovich;04.02.2001;214;Moscow;IT
+6;Ibasheva;Zina;Alekseevna;07.07.2007;741;Gus;Cleaning
+7;Egorov;Egor;Egorovich;09.06.2003;852;Milovka;Sale
+12;Yurev;Timur;Yurevich;07.05.2001;654;Ufa;Home
+.
+2023-02-07 20:38:29.693887: Экспорт в файл: departments.csv.
+2023-02-07 20:38:29.694863: IT;4;3
+Count;1
+Cleaning;6
+Sale;7
+Home;12
+.
+2023-02-07 20:38:29.695887: Экспорт в файл: deleted_workers.csv.
+2023-02-07 20:38:29.696862: 2;Ivanov;Ivan;Ivanovich;05.04.2000;937;Perm;Count
+5;Vaskina;Nina;Egorovna;07.07.2000;541;Birsk;Cleaning
+8;Pavlov;Igor;Ivanovich;21.05.2001;853;Pyshma;Sale
+9;Orlova;Olga;Faimovna;07.12.2005;831;Perm;Home
+10;Sorokina;Tanya;Vasilevna;19.06.2002;963;Moscow;Sale
+.
+2023-02-07 20:39:16.173330: Выгрузка из файла отделов: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Sale': ['7'], 'Home': ['12']}
+2023-02-07 20:39:16.191332: Выгрузка из файла сотрудников: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '12': ['Yurev', 'Timur', 'Yurevich', '07.05.2001', '654', 'Ufa', 'Home']}
+2023-02-07 20:39:16.209329: Выгрузка из файла удаленных сотрудников: {'2': ['Ivanov', 'Ivan', 'Ivanovich', '05.04.2000', '937', 'Perm', 'Count'], '5': ['Vaskina', 'Nina', 'Egorovna', '07.07.2000', '541', 'Birsk', 'Cleaning'], '8': ['Pavlov', 'Igor', 'Ivanovich', '21.05.2001', '853', 'Pyshma', 'Sale'], '9': ['Orlova', 'Olga', 'Faimovna', '07.12.2005', '831', 'Perm', 'Home'], '10': ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale']}
+2023-02-07 20:39:16.213333: Запуск программы
+2023-02-07 20:39:51.932518: Пользователь выбрал 5 пункт.
+2023-02-07 20:39:51.963158: Вывод на экран: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '12': ['Yurev', 'Timur', 'Yurevich', '07.05.2001', '654', 'Ufa', 'Home']}
+2023-02-07 20:39:54.984204: Удалили сотрудника: 12, ['Yurev', 'Timur', 'Yurevich', '07.05.2001', '654', 'Ufa', 'Home']
+2023-02-07 20:39:59.855110: Пользователь выбрал 12 пункт.
+2023-02-07 20:39:59.856115: Экспорт в файл: workers.csv.
+2023-02-07 20:39:59.857112: 1;Romanov;Roman;Romanovich;18.07.2001;874;Moscow;Count
+3;Smirnova;Elena;Petrovna;08.04.2000;874;Ufa;IT
+4;Ivanov;Ivan;Ivanovich;04.02.2001;214;Moscow;IT
+6;Ibasheva;Zina;Alekseevna;07.07.2007;741;Gus;Cleaning
+7;Egorov;Egor;Egorovich;09.06.2003;852;Milovka;Sale
+.
+2023-02-07 20:39:59.863112: Экспорт в файл: departments.csv.
+2023-02-07 20:39:59.865111: IT;4;3
+Count;1
+Cleaning;6
+Sale;7
+Home
+.
+2023-02-07 20:39:59.866108: Экспорт в файл: deleted_workers.csv.
+2023-02-07 20:39:59.867106: 2;Ivanov;Ivan;Ivanovich;05.04.2000;937;Perm;Count
+5;Vaskina;Nina;Egorovna;07.07.2000;541;Birsk;Cleaning
+8;Pavlov;Igor;Ivanovich;21.05.2001;853;Pyshma;Sale
+9;Orlova;Olga;Faimovna;07.12.2005;831;Perm;Home
+10;Sorokina;Tanya;Vasilevna;19.06.2002;963;Moscow;Sale
+12;Yurev;Timur;Yurevich;07.05.2001;654;Ufa;Home
+.
+2023-02-07 20:40:14.907509: Выгрузка из файла отделов: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Sale': ['7']}
+2023-02-07 20:40:14.925475: Выгрузка из файла сотрудников: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale']}
+2023-02-07 20:40:14.953472: Выгрузка из файла удаленных сотрудников: {'2': ['Ivanov', 'Ivan', 'Ivanovich', '05.04.2000', '937', 'Perm', 'Count'], '5': ['Vaskina', 'Nina', 'Egorovna', '07.07.2000', '541', 'Birsk', 'Cleaning'], '8': ['Pavlov', 'Igor', 'Ivanovich', '21.05.2001', '853', 'Pyshma', 'Sale'], '9': ['Orlova', 'Olga', 'Faimovna', '07.12.2005', '831', 'Perm', 'Home'], '10': ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale'], '12': ['Yurev', 'Timur', 'Yurevich', '07.05.2001', '654', 'Ufa', 'Home']}
+2023-02-07 20:40:14.961476: Запуск программы
+2023-02-07 20:40:19.795759: Пользователь выбрал 2 пункт.
+2023-02-07 20:41:52.605495: Создали нового сотрудника: 13, ['Popov', 'Andrey', 'Nikolaevich', '08.09.2003', '125', 'Birsk', 'Sale']
+2023-02-07 20:41:54.612172: Пользователь выбрал 6 пункт.
+2023-02-07 20:41:54.649542: Вывод на экран: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '13': ['Popov', 'Andrey', 'Nikolaevich', '08.09.2003', '125', 'Birsk', 'Sale']}
+2023-02-07 20:42:03.288425: Пользователь выбрал 7 пункт.
+2023-02-07 20:42:03.294672: Вывод на экран: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Sale': ['7', '13']}
+2023-02-07 20:42:21.193993: Пользователь выбрал 12 пункт.
+2023-02-07 20:42:21.207303: Экспорт в файл: workers.csv.
+2023-02-07 20:42:21.210210: 1;Romanov;Roman;Romanovich;18.07.2001;874;Moscow;Count
+3;Smirnova;Elena;Petrovna;08.04.2000;874;Ufa;IT
+4;Ivanov;Ivan;Ivanovich;04.02.2001;214;Moscow;IT
+6;Ibasheva;Zina;Alekseevna;07.07.2007;741;Gus;Cleaning
+7;Egorov;Egor;Egorovich;09.06.2003;852;Milovka;Sale
+13;Popov;Andrey;Nikolaevich;08.09.2003;125;Birsk;Sale
+.
+2023-02-07 20:42:21.214210: Экспорт в файл: departments.csv.
+2023-02-07 20:42:21.216211: IT;4;3
+Count;1
+Cleaning;6
+Sale;7;13
+.
+2023-02-07 20:42:21.217207: Экспорт в файл: deleted_workers.csv.
+2023-02-07 20:42:21.218203: 2;Ivanov;Ivan;Ivanovich;05.04.2000;937;Perm;Count
+5;Vaskina;Nina;Egorovna;07.07.2000;541;Birsk;Cleaning
+8;Pavlov;Igor;Ivanovich;21.05.2001;853;Pyshma;Sale
+9;Orlova;Olga;Faimovna;07.12.2005;831;Perm;Home
+10;Sorokina;Tanya;Vasilevna;19.06.2002;963;Moscow;Sale
+12;Yurev;Timur;Yurevich;07.05.2001;654;Ufa;Home
+.
+2023-02-07 20:42:41.443726: Выгрузка из файла отделов: {'IT': ['4', '3'], 'Count': ['1'], 'Cleaning': ['6'], 'Sale': ['7', '13']}
+2023-02-07 20:42:41.449727: Выгрузка из файла сотрудников: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '13': ['Popov', 'Andrey', 'Nikolaevich', '08.09.2003', '125', 'Birsk', 'Sale']}
+2023-02-07 20:42:41.466726: Выгрузка из файла удаленных сотрудников: {'2': ['Ivanov', 'Ivan', 'Ivanovich', '05.04.2000', '937', 'Perm', 'Count'], '5': ['Vaskina', 'Nina', 'Egorovna', '07.07.2000', '541', 'Birsk', 'Cleaning'], '8': ['Pavlov', 'Igor', 'Ivanovich', '21.05.2001', '853', 'Pyshma', 'Sale'], '9': ['Orlova', 'Olga', 'Faimovna', '07.12.2005', '831', 'Perm', 'Home'], '10': ['Sorokina', 'Tanya', 'Vasilevna', '19.06.2002', '963', 'Moscow', 'Sale'], '12': ['Yurev', 'Timur', 'Yurevich', '07.05.2001', '654', 'Ufa', 'Home']}
+2023-02-07 20:42:41.469731: Запуск программы
+2023-02-07 20:42:54.418130: Пользователь выбрал 2 пункт.
+2023-02-07 20:45:02.737427: Создали нового сотрудника: 14, ['Rozhkova', 'Lilya', 'Raimovna', '06.08.2002', '965', 'Ufa', 'IT']
+2023-02-07 23:32:19.741773: Пользователь выбрал 6 пункт.
+2023-02-07 23:32:19.776536: Вывод на экран: {'1': ['Romanov', 'Roman', 'Romanovich', '18.07.2001', '874', 'Moscow', 'Count'], '3': ['Smirnova', 'Elena', 'Petrovna', '08.04.2000', '874', 'Ufa', 'IT'], '4': ['Ivanov', 'Ivan', 'Ivanovich', '04.02.2001', '214', 'Moscow', 'IT'], '6': ['Ibasheva', 'Zina', 'Alekseevna', '07.07.2007', '741', 'Gus', 'Cleaning'], '7': ['Egorov', 'Egor', 'Egorovich', '09.06.2003', '852', 'Milovka', 'Sale'], '13': ['Popov', 'Andrey', 'Nikolaevich', '08.09.2003', '125', 'Birsk', 'Sale'], '14': ['Rozhkova', 'Lilya', 'Raimovna', '06.08.2002', '965', 'Ufa', 'IT']}
+2023-02-07 23:34:12.751989: Пользователь выбрал 12 пункт.
+2023-02-07 23:34:12.754440: Экспорт в файл: workers.csv.
+2023-02-07 23:34:12.756439: 1;Romanov;Roman;Romanovich;18.07.2001;874;Moscow;Count
+3;Smirnova;Elena;Petrovna;08.04.2000;874;Ufa;IT
+4;Ivanov;Ivan;Ivanovich;04.02.2001;214;Moscow;IT
+6;Ibasheva;Zina;Alekseevna;07.07.2007;741;Gus;Cleaning
+7;Egorov;Egor;Egorovich;09.06.2003;852;Milovka;Sale
+13;Popov;Andrey;Nikolaevich;08.09.2003;125;Birsk;Sale
+14;Rozhkova;Lilya;Raimovna;06.08.2002;965;Ufa;IT
+.
+2023-02-07 23:34:12.756959: Экспорт в файл: departments.csv.
+2023-02-07 23:34:12.756959: IT;4;3;14
+Count;1
+Cleaning;6
+Sale;7;13
+.
+2023-02-07 23:34:12.756959: Экспорт в файл: deleted_workers.csv.
+2023-02-07 23:34:12.756959: 2;Ivanov;Ivan;Ivanovich;05.04.2000;937;Perm;Count
+5;Vaskina;Nina;Egorovna;07.07.2000;541;Birsk;Cleaning
+8;Pavlov;Igor;Ivanovich;21.05.2001;853;Pyshma;Sale
+9;Orlova;Olga;Faimovna;07.12.2005;831;Perm;Home
+10;Sorokina;Tanya;Vasilevna;19.06.2002;963;Moscow;Sale
+12;Yurev;Timur;Yurevich;07.05.2001;654;Ufa;Home
+.
